@@ -1,0 +1,18 @@
+@media(max-width: 600px) {
+    .main-visual {
+        height: calc(100vh - 60px);
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about-contents img {
+        margin-right: 0;
+    }
+    .works ul {
+        flex-direction: column;
+    }
+    .works li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
